@@ -1,0 +1,11 @@
+{
+  "byId": {
+    "reit-data": {
+      "id": "reit-data",
+      "name": "Indian REITs",
+      "status": "scaffold",
+      "source": "SEBI/BSE public"
+    }
+  },
+  "searchableFields": []
+}
