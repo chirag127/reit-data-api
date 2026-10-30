@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chirag127.github.io/reit-data/data/schema.json",
+  "title": "Indian REITs",
+  "description": "Listed REITs with NAV, distribution yield, and portfolio info",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier"
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name"
+      }
+    }
+  }
+}
